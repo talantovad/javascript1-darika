@@ -1,0 +1,49 @@
+<canvas id="myCanvas" width="1000" height="1000" ></canvas>
+
+<script>
+ var c=document.getElementById ("myCanvas");
+ var pen=c.getContext("2d")
+
+
+
+ pen.beginPath();
+pen.arc(150,150,150,0, 2*Math.PI)
+pen.fillStyle="blueviolet";
+pen.fill();
+pen.stroke();
+
+pen.beginPath();
+pen.rect(45,70,100,80);
+pen.fillStyle="yellow";
+pen.fill();
+pen.stroke();
+
+pen.beginPath();
+pen.rect(155,70,100,80);
+pen.fillStyle="deeppink";
+pen.fill();
+pen.stroke();
+
+pen.beginPath();
+pen.rect(155,155,100,80);
+pen.fillStyle="deepskyblue";
+pen.fill();
+pen.stroke();
+
+pen.beginPath();
+pen.rect(45,155,100,80);
+pen.fillStyle="lightgreen";
+pen.fill();
+pen.stroke();
+
+
+
+
+
+
+
+
+
+
+
+</script>
